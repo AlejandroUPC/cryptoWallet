@@ -1,0 +1,45 @@
+body {
+    font-family: 'Inconsolata', monospace;
+}
+
+#loginContainer {
+    display: flex;
+    flex-direction: column;
+    border: solid 3px black;
+    border-radius: 1%;
+    height: 10vw;
+    width: 30vw;
+    animation-name: slidein;
+    animation-duration: 5s;
+}
+
+#logInButton {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+}
+
+#walletStats {
+    border: solid 2px black;
+    border-radius: 25px;
+}
+
+@keyframes slidein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* #memLogin {
+    margin-top: 5px;
+    margin-bottom: 5px;
+} */
+
+nav {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+  }
+
+  

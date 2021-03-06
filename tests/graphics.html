@@ -1,0 +1,16 @@
+<% layout('layouts/boilerplate')%>
+
+
+<body>
+    <div class="container" id="pieDiv">
+        <canvas id="cryptoPie" data=<% userData.transactionList%>></canvas>
+    </div>
+
+
+    <div class="container" id="timelieDiv">
+        <canvas id="cryptoTimeline"></canvas>
+    </div>
+</body>
+<script src="graphics.js"></script>
+
+</html>

@@ -1,0 +1,17 @@
+<% layout('layouts/boilerplate')%>
+
+
+    <body>
+        <div class="container" id="loginContainer">
+            <hr class="mt-0">
+            <form method="POST" action="/register">
+                <label for="login">Correo electrónico</label>
+                <input type="email" id="login" class="form-control mb-1" name="username" placeholder="Usuario">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" class="form-control mb-1" name="password" placeholder="Contraseña">
+                <input type="submit" class="btn-secondary mb-2" id="logInButton" value="Registrarse">
+            </form>
+        </div>
+    </body>
+
+    </html>

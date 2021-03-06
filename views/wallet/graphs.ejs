@@ -1,0 +1,16 @@
+<% layout('layouts/boilerplate')%>
+
+    <body>
+
+        <div class="container" id="pieDiv">
+            <canvas id="cryptoPie" data="<%=JSON.stringify(userData)%>"></canvas>
+        </div>
+        <div class="container" id="timelieDiv">
+            <canvas id="cryptoTimeline" datatime="<%=JSON.stringify(timeLines)%>"
+                dataset="<%=JSON.stringify(dataSets)%>"></canvas>
+        </div>
+    </body>
+    <script src="/graphicCaculations.js"></script>
+
+
+    </html>

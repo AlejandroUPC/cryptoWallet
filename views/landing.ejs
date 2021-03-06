@@ -1,0 +1,28 @@
+<% layout('layouts/boilerplate')%>
+
+    <body id="landingBody">
+        <h1 id="typeScript"></h1>
+        <br>
+        <br>
+        <h3>Regístrate y empieza a tener el control de tus cryptoactivos:</h3>
+        <ul>
+            <li>Sigue los consejos y cursos de la web princpial.</li>
+            <li>Añade miles de criptomonedas y calcula los beneficios instanteamente.</li>
+            <li>Entiende el comportamiento de tus inversiones con gráficos interactivos</li>
+        </ul>
+    </body>
+
+    <script>
+        var i = 0;
+        var txt = 'Bienvenido a JeiiWallet'; /* The text */
+        var speed = 100; /* The speed/duration of the effect in milliseconds */
+
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("typeScript").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+        typeWriter()
+    </script>
